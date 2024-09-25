@@ -1,0 +1,14 @@
+/home/kamibiel/Documentos/app/ean/bin/Debug/net8.0/ean
+/home/kamibiel/Documentos/app/ean/bin/Debug/net8.0/ean.deps.json
+/home/kamibiel/Documentos/app/ean/bin/Debug/net8.0/ean.runtimeconfig.json
+/home/kamibiel/Documentos/app/ean/bin/Debug/net8.0/ean.dll
+/home/kamibiel/Documentos/app/ean/bin/Debug/net8.0/ean.pdb
+/home/kamibiel/Documentos/app/ean/obj/Debug/net8.0/ean.GeneratedMSBuildEditorConfig.editorconfig
+/home/kamibiel/Documentos/app/ean/obj/Debug/net8.0/ean.AssemblyInfoInputs.cache
+/home/kamibiel/Documentos/app/ean/obj/Debug/net8.0/ean.AssemblyInfo.cs
+/home/kamibiel/Documentos/app/ean/obj/Debug/net8.0/ean.csproj.CoreCompileInputs.cache
+/home/kamibiel/Documentos/app/ean/obj/Debug/net8.0/ean.dll
+/home/kamibiel/Documentos/app/ean/obj/Debug/net8.0/refint/ean.dll
+/home/kamibiel/Documentos/app/ean/obj/Debug/net8.0/ean.pdb
+/home/kamibiel/Documentos/app/ean/obj/Debug/net8.0/ean.genruntimeconfig.cache
+/home/kamibiel/Documentos/app/ean/obj/Debug/net8.0/ref/ean.dll
