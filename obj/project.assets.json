@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kamibiel/Documentos/app/ean/ean.csproj",
+      "projectUniqueName": "/home/kamibiel/Documentos/app/codean/ean.csproj",
       "projectName": "ean",
-      "projectPath": "/home/kamibiel/Documentos/app/ean/ean.csproj",
+      "projectPath": "/home/kamibiel/Documentos/app/codean/ean.csproj",
       "packagesPath": "/home/kamibiel/.nuget/packages/",
-      "outputPath": "/home/kamibiel/Documentos/app/ean/obj/",
+      "outputPath": "/home/kamibiel/Documentos/app/codean/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/kamibiel/.nuget/NuGet/NuGet.Config"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

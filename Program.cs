@@ -11,6 +11,22 @@ class Program
         Console.WriteLine("Digite o valor final:");
         long y = Convert.ToInt64(Console.ReadLine());
 
+        long prefixo = 0;
+
+        for(int tentativa = 0; tentativa >= 0; tentativa++)
+        {
+            Console.WriteLine("Digite o valor do préfixo (exceto 2 ou 7):");
+            prefixo = Convert.ToInt64(Console.ReadLine());
+            if (prefixo == 2 || prefixo == 7)
+            {
+                Console.WriteLine($"O prefixo {prefixo} escolhido, não pode ser utilizado. Por favor, escolha outro prefixo.");
+            }
+            else
+            {
+                break;
+            }
+        }
+
         // Define o caminho do arquivo
         string caminhoArquivo = "codigos_barras.txt";
 
@@ -19,8 +35,8 @@ class Program
         {
             for (long i = x; i <= y; i++)
             {
-                // Prefixo '5' + número no intervalo fornecido, garantido ter 11 dígitos no total
-                string baseCode = "5" + i.ToString().PadLeft(11, '0');  
+                // Prefixo + número no intervalo fornecido, garantido ter 11 dígitos no total
+                string baseCode = prefixo + i.ToString().PadLeft(11, '0'); 
                 
                 int checkDigit = CalcularDigitoVerificador(baseCode);  // Calcula o dígito verificador
                 string codigoDeBarras = baseCode + checkDigit;  // Concatena o código base com o dígito verificador
